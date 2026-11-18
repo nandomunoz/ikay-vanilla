@@ -8,7 +8,7 @@
 </a>
 
 [![Live demo](https://img.shields.io/badge/demo-live-d40728)](https://nandovejer.github.io/ikay-vanilla/)
-[![Built on LUZ](https://img.shields.io/badge/built%20on-LUZ%20tokens%200.3.0-2365a6)](https://github.com/nandovejer/luz)
+[![Built on LUZ](https://img.shields.io/badge/built%20on-LUZ%20tokens%200.3.0-2365a6)](https://github.com/nandomunoz/luz)
 ![Dependencies: LUZ only](https://img.shields.io/badge/dependencies-LUZ%20only-2365a6)
 ![Build step: none](https://img.shields.io/badge/build%20step-none-1d1711)
 ![Contrast: WCAG 2.2 AA, AAA in high contrast](https://img.shields.io/badge/contrast-AA%20%C2%B7%20AAA%20in%20high%20contrast-007f4d)
@@ -33,13 +33,13 @@
   </picture>
 </p>
 
-> **The modern version of [IKAY](https://github.com/nandovejer/ikay)**, the original project. Same purpose, written in plain HTML, CSS and JavaScript on top of the [LUZ](https://github.com/nandovejer/luz) design tokens. **One dependency, LUZ**, and nothing else to install: no bundler, no preprocessor, no framework.
+> **The modern version of [IKAY](https://github.com/nandomunoz/ikay)**, the original project. Same purpose, written in plain HTML, CSS and JavaScript on top of the [LUZ](https://github.com/nandomunoz/luz) design tokens. **One dependency, LUZ**, and nothing else to install: no bundler, no preprocessor, no framework.
 
 **DEMO: https://nandovejer.github.io/ikay-vanilla/**
 
 Hi, I'm Nando Muñoz. IKAY is a tool to visualize, identify and manage your browser fingerprint. It shows a dashboard with part of the information you hand over to a website every time you visit it, **without asking for a single permission**, and explains in plain language what each piece of data means for you.
 
-The original still lives at [nandovejer/ikay](https://github.com/nandovejer/ikay) (Webpack, SCSS and `ua-parser-js`); this is the same tool built with the 2026 web platform.
+The original still lives at [nandovejer/ikay](https://github.com/nandomunoz/ikay) (Webpack, SCSS and `ua-parser-js`); this is the same tool built with the 2026 web platform.
 
 ## What it shows
 
@@ -77,7 +77,7 @@ Motion sensors never trigger a permission prompt: Android shares them freely, iO
 
 ## Built on LUZ
 
-IKAY is a theme of [LUZ](https://github.com/nandovejer/luz), the design system in plain HTML, CSS and ES modules. LUZ sets the colours, the type roles, the sizes, the corners, the shadows and the motion as CSS custom properties; IKAY gives them its own values, and every component reads them.
+IKAY is a theme of [LUZ](https://github.com/nandomunoz/luz), the design system in plain HTML, CSS and ES modules. LUZ sets the colours, the type roles, the sizes, the corners, the shadows and the motion as CSS custom properties; IKAY gives them its own values, and every component reads them.
 
 ```mermaid
 flowchart TB
@@ -164,7 +164,7 @@ npm is only for the people who work on the repository: it installs LUZ to update
 | --- | --- |
 | `npm install` | Installs `@luz-ds/tokens` and `@luz-ds/check` |
 | `npm run luz:sync` | Copies the tokens from `node_modules` to `assets/vendor/luz/`, which is what the page loads |
-| `npm run check` | Runs [`luz-check`](https://github.com/nandovejer/luz/tree/main/packages/check) on `index.html` and the CSS (LUZ names, load order and the contrast of the theme in its three modes) and checks the module preload list |
+| `npm run check` | Runs [`luz-check`](https://github.com/nandomunoz/luz/tree/main/packages/check) on `index.html` and the CSS (LUZ names, load order and the contrast of the theme in its three modes) and checks the module preload list |
 | `npm run preload` | Rewrites the `modulepreload` list of `index.html` after you add, move or remove a JavaScript module |
 
 **Update LUZ:** change the version in `package.json`, then `npm install && npm run luz:sync && npm run check`. LUZ is in beta: read its changelog first.
@@ -244,7 +244,7 @@ The language is the one chosen in the menu (saved in `localStorage`) or else the
 
 ## From the original IKAY to this version
 
-| [Original](https://github.com/nandovejer/ikay)  | Now                                                                       |
+| [Original](https://github.com/nandomunoz/ikay)  | Now                                                                       |
 | ----------------------------------------------- | ------------------------------------------------------------------------- |
 | Webpack + Babel + BrowserSync                   | Native ES modules, no build step                                          |
 | SCSS (variables, mixins, `@extend`)             | LUZ tokens, CSS custom properties, native nesting and cascade layers      |
@@ -263,7 +263,7 @@ Current versions of Chrome, Edge, Firefox and Safari: ES modules, top-level `awa
 
 ## Credits
 
-- **[LUZ](https://github.com/nandovejer/luz)** (MIT): the design tokens and 14 of the icons.
+- **[LUZ](https://github.com/nandomunoz/luz)** (MIT): the design tokens and 14 of the icons.
 - **[Bootstrap Icons](https://icons.getbootstrap.com)** (MIT): the marks of Facebook, X, LinkedIn, WhatsApp and Reddit on the share buttons. They belong to their owners and only name the network a button opens.
 - **[Fraunces](https://github.com/undercasetype/Fraunces), [Inter Tight](https://github.com/rsms/inter-tight), [Fira Code](https://github.com/tonsky/FiraCode) and [Noto Sans Arabic](https://github.com/notofonts/arabic)** (SIL Open Font License 1.1): the typefaces. Their licences are in [`assets/fonts/`](assets/fonts).
 - **[Robin Linus](https://github.com/RobinLinus)**, for the inspiration.

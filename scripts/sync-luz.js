@@ -21,7 +21,7 @@ copyFileSync(resolve(pkg, "LICENSE"), resolve(out, "LICENSE"));
 writeFileSync(
   resolve(out, "README.md"),
   `# LUZ tokens ${version}\n\n` +
-    "Copy of [`@luz-ds/tokens`](https://github.com/nandovejer/luz/tree/main/packages/tokens) " +
+    "Copy of [`@luz-ds/tokens`](https://github.com/nandomunoz/luz/tree/main/packages/tokens) " +
     `${version} (MIT, see \`LICENSE\`): the design tokens, without the web fonts.\n\n` +
     "Do not edit it. To update, change the version in `package.json` and run:\n\n" +
     "```sh\nnpm install && npm run luz:sync\n```\n"

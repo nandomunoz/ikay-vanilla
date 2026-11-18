@@ -1,6 +1,6 @@
 ## How to contribute to IKAY
 
-Thank you for contributing! IKAY is plain HTML, CSS and JavaScript on the [LUZ](https://github.com/nandovejer/luz) design tokens: there is no build step, so what you change is what the browser runs.
+Thank you for contributing! IKAY is plain HTML, CSS and JavaScript on the [LUZ](https://github.com/nandomunoz/luz) design tokens: there is no build step, so what you change is what the browser runs.
 
 ## Language
 
