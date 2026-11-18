@@ -1,13 +1,13 @@
 <div align="center">
 
-<a href="https://nandovejer.github.io/ikay-vanilla/">
+<a href="https://nandomunoz.github.io/ikay-vanilla/">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset=".github/assets/readme/banner-dark.svg">
     <img src=".github/assets/readme/banner-light.svg" alt="IKAY. Your browser fingerprint, in plain language. 33 data points, 0 permissions asked, built on LUZ." width="100%">
   </picture>
 </a>
 
-[![Live demo](https://img.shields.io/badge/demo-live-d40728)](https://nandovejer.github.io/ikay-vanilla/)
+[![Live demo](https://img.shields.io/badge/demo-live-d40728)](https://nandomunoz.github.io/ikay-vanilla/)
 [![Built on LUZ](https://img.shields.io/badge/built%20on-LUZ%20tokens%200.3.0-2365a6)](https://github.com/nandomunoz/luz)
 ![Dependencies: LUZ only](https://img.shields.io/badge/dependencies-LUZ%20only-2365a6)
 ![Build step: none](https://img.shields.io/badge/build%20step-none-1d1711)
@@ -35,7 +35,7 @@
 
 > **The modern version of [IKAY](https://github.com/nandomunoz/ikay)**, the original project. Same purpose, written in plain HTML, CSS and JavaScript on top of the [LUZ](https://github.com/nandomunoz/luz) design tokens. **One dependency, LUZ**, and nothing else to install: no bundler, no preprocessor, no framework.
 
-**DEMO: https://nandovejer.github.io/ikay-vanilla/**
+**DEMO: https://nandomunoz.github.io/ikay-vanilla/**
 
 Hi, I'm Nando Muñoz. IKAY is a tool to visualize, identify and manage your browser fingerprint. It shows a dashboard with part of the information you hand over to a website every time you visit it, **without asking for a single permission**, and explains in plain language what each piece of data means for you.
 
